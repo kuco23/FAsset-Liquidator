@@ -49,7 +49,7 @@ export async function addLiquidity(
     tokenA, tokenB,
     amountA, amountB,
     0, 0, 0, 0,
-    ethers.ZeroAddress,
+    liquidityProvider,
     ethers.MaxUint256
   )
 }
